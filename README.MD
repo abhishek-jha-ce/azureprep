@@ -35,13 +35,24 @@ Now known as **Azure Cognitive Search**, it provides indexing and querying capab
 
 ## KeyVault
 
+It is the service for securely storing and accessing secrets. The secrets can be API keys, passwords, certificates or cryptographic keys. It can be compared to encryption ant rest scenarios where customer data is processed by PaaS.
+
 - It provides secure key management to protect data in the cloud.
 
-
+### HSM (Hard Security Module)
+- It is a physical computing device that safeguards and manages secrets, mostly digital keys.
 
 ## ARM Template
 
+Azure Resource Manager Template is a form of infrasturucter as code. We can define the infrastructure that need to deployed. It uses declarative syntax, meaning we deinfe the resource for azure to deploy without specifying how the resources are created. It's main advantages are
+
+- Declarative Syntax
+- Repeatable Results
+- Orchestration
+
 ## OAuth
+
+Open Authoriazation is a way for internet users to grant websites or application access to their information on other website without giving them access to the passwords. It makes it possible for companies such as Amazon, Google, Facebook, Microsoft, Twittter etc to allow the users to share informatin about their accounts with third-party application or websites.
 
 ## SAML
 
